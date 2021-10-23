@@ -7,5 +7,4 @@ public interface IParking {
 	public static IParams parse() throws Exception{
 		return null;
 	 };
-
 }
