@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
 public interface IParams {
-	public int getBig();
-    // »ñÈ¡ÖĞ³µÎ»
+    public int getBig();
+    // è·å–ä¸­è½¦ä½
     public int getMedium();
-    // »ñÈ¡Ğ¡³µÎ»
+    // è·å–å°è½¦ä½
     public int getSmall();
-    // »ñÈ¡Í£³µĞòÁĞ£¬ÀıÈç [1 2 2 3] ±íÊ¾ ÒÀ´ÎÍ£Ò»Á¾´ó³µ£¬ÖĞ³µ£¬ÖĞ³µ£¬Ğ¡³µ
+    // è·å–åœè½¦åºåˆ—ï¼Œä¾‹å¦‚ [1 2 2 3] è¡¨ç¤º ä¾æ¬¡åœä¸€è¾†å¤§è½¦ï¼Œä¸­è½¦ï¼Œä¸­è½¦ï¼Œå°è½¦
     public ArrayList<Integer> getPlanParking();
 }
